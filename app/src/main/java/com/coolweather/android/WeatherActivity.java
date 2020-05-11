@@ -49,11 +49,11 @@ public class WeatherActivity extends AppCompatActivity {
     private TextView sportText;
     private ImageView bingPicImg;
 
-    public SwipeRefreshLayout swipeRefreshLayout;
-    private String weatherId;
-
     public DrawerLayout drawerLayout;
     private Button navButton;
+
+    public SwipeRefreshLayout swipeRefreshLayout;
+    private String weatherId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
